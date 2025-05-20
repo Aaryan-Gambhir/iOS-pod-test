@@ -1,0 +1,103 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios15-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZoopScannerSdk
+import AVFoundation
+import CommonCrypto
+import CoreImage
+import CryptoKit
+import DeveloperToolsSupport
+import FirebaseAnalytics
+import FirebaseCore
+import FirebaseMLModelDownloader
+import FirebaseStorage
+import Foundation
+import PhotosUI
+import Swift
+import SwiftUI
+import TensorFlowLite
+import UIKit
+@_exported import ZoopScannerSdk
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FileType {
+  case jpeg
+  case png
+  public static func == (a: ZoopScannerSdk.FileType, b: ZoopScannerSdk.FileType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ScanMode {
+  case single
+  case batch
+  public static func == (a: ZoopScannerSdk.ScanMode, b: ZoopScannerSdk.ScanMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ScannerConfig {
+  public let fileType: ZoopScannerSdk.FileType
+  public let mode: ZoopScannerSdk.ScanMode
+  public let quality: Swift.Int
+  public let autoEnabled: Swift.Bool
+  public let primaryColor: Swift.String
+  public let isIdCard: Swift.Bool
+  public let isBackImageRequired: Swift.Bool
+  public let proceedButtonTextColor: Swift.String
+  public let previewInstruction: Swift.String
+  public init(fileType: ZoopScannerSdk.FileType, mode: ZoopScannerSdk.ScanMode, quality: Swift.Int, autoEnabled: Swift.Bool, primaryColor: Swift.String, isIdCard: Swift.Bool = false, isBackImageRequired: Swift.Bool = false, proceedButtonTextColor: Swift.String = "#00FF00", previewInstruction: Swift.String = "Please ensure scans are not blurry")
+}
+public class ScannerConfigBuilder {
+  public init()
+  public func setFileType(_ fileType: ZoopScannerSdk.FileType) -> Self
+  public func setMode(_ mode: ZoopScannerSdk.ScanMode) -> Self
+  public func setQuality(_ quality: Swift.Int) -> Self
+  public func setAutoEnabled(_ enabled: Swift.Bool) -> Self
+  public func setPrimaryColor(_ color: Swift.String) -> Self
+  public func setIsIdCard(_ isIdCard: Swift.Bool) -> Self
+  public func setIsBackImageRequired(_ isRequired: Swift.Bool) -> Self
+  public func setProceedButtonTextColor(_ color: Swift.String) -> Self
+  public func setPreviewInstruction(_ instruction: Swift.String) -> Self
+  public func build() -> ZoopScannerSdk.ScannerConfig
+  @objc deinit
+}
+public struct ScanResult {
+  public let image: UIKit.UIImage
+  public let corners: [CoreFoundation.CGPoint]
+  public let confidence: Swift.Float
+  public func toJson() -> Swift.String
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor public class ZoopScannerSDK {
+  @_Concurrency.MainActor public static let shared: ZoopScannerSdk.ZoopScannerSDK
+  public enum ScannerError : Swift.Error {
+    case licenseNotInitialized
+    case invalidLicense
+    case bundleNotFound
+    case detectorInitializationFailed
+    case modelDownloadFailed
+    case modelDecryptionFailed
+    case unknownError
+    public static func == (a: ZoopScannerSdk.ZoopScannerSDK.ScannerError, b: ZoopScannerSdk.ZoopScannerSDK.ScannerError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor public func initializeLicenseKey(_ licenseKey: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  @_Concurrency.MainActor public func startScan(from viewController: UIKit.UIViewController, config: ZoopScannerSdk.ScannerConfig, licenseKey: Swift.String? = nil, completion: @escaping (Swift.Result<[ZoopScannerSdk.ScanResult], any Swift.Error>) -> Swift.Void)
+  @_Concurrency.MainActor public func downloadEncryptedModel(modelName: Swift.String, completion: @escaping (Swift.Result<Foundation.URL, any Swift.Error>) -> Swift.Void)
+  @_Concurrency.MainActor public func decryptModel(encryptedModelURL: Foundation.URL, key: Swift.String = "zoop@security", completion: @escaping (Swift.Result<Foundation.Data, any Swift.Error>) -> Swift.Void)
+  @_Concurrency.MainActor public func downloadAndUseModel(modelName: Swift.String, key: Swift.String = "zoop@security", completion: @escaping (Swift.Result<Foundation.Data, any Swift.Error>) -> Swift.Void)
+  @_Concurrency.MainActor public func downloadAndUseModel(modelName: Swift.String, key: Swift.String = "zoop@security", iv: Swift.String = "", completion: @escaping (Swift.Result<Foundation.Data, any Swift.Error>) -> Swift.Void)
+  @objc deinit
+}
+extension ZoopScannerSdk.FileType : Swift.Equatable {}
+extension ZoopScannerSdk.FileType : Swift.Hashable {}
+extension ZoopScannerSdk.ScanMode : Swift.Equatable {}
+extension ZoopScannerSdk.ScanMode : Swift.Hashable {}
+extension ZoopScannerSdk.ZoopScannerSDK : Swift.Sendable {}
+extension ZoopScannerSdk.ZoopScannerSDK.ScannerError : Swift.Equatable {}
+extension ZoopScannerSdk.ZoopScannerSDK.ScannerError : Swift.Hashable {}
