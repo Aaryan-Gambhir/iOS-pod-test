@@ -1,0 +1,6 @@
+framework module ZoopScannerSdk {
+  umbrella header "ZoopScannerSdk.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,3688 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ZoopScannerSdk",
+    "printedName": "ZoopScannerSdk",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileType",
+        "printedName": "FileType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "jpeg",
+            "printedName": "jpeg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZoopScannerSdk.FileType.Type) -> ZoopScannerSdk.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "ZoopScannerSdk.FileType",
+                    "usr": "s:14ZoopScannerSdk8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZoopScannerSdk.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "ZoopScannerSdk.FileType",
+                        "usr": "s:14ZoopScannerSdk8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ZoopScannerSdk8FileTypeO4jpegyA2CmF",
+            "mangledName": "$s14ZoopScannerSdk8FileTypeO4jpegyA2CmF",
+            "moduleName": "ZoopScannerSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "png",
+            "printedName": "png",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZoopScannerSdk.FileType.Type) -> ZoopScannerSdk.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "ZoopScannerSdk.FileType",
+                    "usr": "s:14ZoopScannerSdk8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZoopScannerSdk.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "ZoopScannerSdk.FileType",
+                        "usr": "s:14ZoopScannerSdk8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ZoopScannerSdk8FileTypeO3pngyA2CmF",
+            "mangledName": "$s14ZoopScannerSdk8FileTypeO3pngyA2CmF",
+            "moduleName": "ZoopScannerSdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FileType",
+                "printedName": "ZoopScannerSdk.FileType",
+                "usr": "s:14ZoopScannerSdk8FileTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FileType",
+                "printedName": "ZoopScannerSdk.FileType",
+                "usr": "s:14ZoopScannerSdk8FileTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk8FileTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14ZoopScannerSdk8FileTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZoopScannerSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk8FileTypeO9hashValueSivp",
+            "mangledName": "$s14ZoopScannerSdk8FileTypeO9hashValueSivp",
+            "moduleName": "ZoopScannerSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk8FileTypeO9hashValueSivg",
+                "mangledName": "$s14ZoopScannerSdk8FileTypeO9hashValueSivg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk8FileTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14ZoopScannerSdk8FileTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZoopScannerSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14ZoopScannerSdk8FileTypeO",
+        "mangledName": "$s14ZoopScannerSdk8FileTypeO",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScanMode",
+        "printedName": "ScanMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "single",
+            "printedName": "single",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZoopScannerSdk.ScanMode.Type) -> ZoopScannerSdk.ScanMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanMode",
+                    "printedName": "ZoopScannerSdk.ScanMode",
+                    "usr": "s:14ZoopScannerSdk8ScanModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZoopScannerSdk.ScanMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanMode",
+                        "printedName": "ZoopScannerSdk.ScanMode",
+                        "usr": "s:14ZoopScannerSdk8ScanModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ZoopScannerSdk8ScanModeO6singleyA2CmF",
+            "mangledName": "$s14ZoopScannerSdk8ScanModeO6singleyA2CmF",
+            "moduleName": "ZoopScannerSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "batch",
+            "printedName": "batch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZoopScannerSdk.ScanMode.Type) -> ZoopScannerSdk.ScanMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanMode",
+                    "printedName": "ZoopScannerSdk.ScanMode",
+                    "usr": "s:14ZoopScannerSdk8ScanModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZoopScannerSdk.ScanMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanMode",
+                        "printedName": "ZoopScannerSdk.ScanMode",
+                        "usr": "s:14ZoopScannerSdk8ScanModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14ZoopScannerSdk8ScanModeO5batchyA2CmF",
+            "mangledName": "$s14ZoopScannerSdk8ScanModeO5batchyA2CmF",
+            "moduleName": "ZoopScannerSdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanMode",
+                "printedName": "ZoopScannerSdk.ScanMode",
+                "usr": "s:14ZoopScannerSdk8ScanModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanMode",
+                "printedName": "ZoopScannerSdk.ScanMode",
+                "usr": "s:14ZoopScannerSdk8ScanModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk8ScanModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14ZoopScannerSdk8ScanModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZoopScannerSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk8ScanModeO9hashValueSivp",
+            "mangledName": "$s14ZoopScannerSdk8ScanModeO9hashValueSivp",
+            "moduleName": "ZoopScannerSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk8ScanModeO9hashValueSivg",
+                "mangledName": "$s14ZoopScannerSdk8ScanModeO9hashValueSivg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk8ScanModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14ZoopScannerSdk8ScanModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZoopScannerSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14ZoopScannerSdk8ScanModeO",
+        "mangledName": "$s14ZoopScannerSdk8ScanModeO",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScannerConfig",
+        "printedName": "ScannerConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fileType",
+            "printedName": "fileType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FileType",
+                "printedName": "ZoopScannerSdk.FileType",
+                "usr": "s:14ZoopScannerSdk8FileTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV8fileTypeAA04FileF0Ovp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV8fileTypeAA04FileF0Ovp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "ZoopScannerSdk.FileType",
+                    "usr": "s:14ZoopScannerSdk8FileTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV8fileTypeAA04FileF0Ovg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV8fileTypeAA04FileF0Ovg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mode",
+            "printedName": "mode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScanMode",
+                "printedName": "ZoopScannerSdk.ScanMode",
+                "usr": "s:14ZoopScannerSdk8ScanModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV4modeAA8ScanModeOvp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV4modeAA8ScanModeOvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanMode",
+                    "printedName": "ZoopScannerSdk.ScanMode",
+                    "usr": "s:14ZoopScannerSdk8ScanModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV4modeAA8ScanModeOvg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV4modeAA8ScanModeOvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "quality",
+            "printedName": "quality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV7qualitySivp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV7qualitySivp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV7qualitySivg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV7qualitySivg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoEnabled",
+            "printedName": "autoEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV11autoEnabledSbvp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV11autoEnabledSbvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV11autoEnabledSbvg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV11autoEnabledSbvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryColor",
+            "printedName": "primaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV12primaryColorSSvp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV12primaryColorSSvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV12primaryColorSSvg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV12primaryColorSSvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isIdCard",
+            "printedName": "isIdCard",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV8isIdCardSbvp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV8isIdCardSbvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV8isIdCardSbvg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV8isIdCardSbvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBackImageRequired",
+            "printedName": "isBackImageRequired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV19isBackImageRequiredSbvp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV19isBackImageRequiredSbvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV19isBackImageRequiredSbvg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV19isBackImageRequiredSbvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "proceedButtonTextColor",
+            "printedName": "proceedButtonTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV22proceedButtonTextColorSSvp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV22proceedButtonTextColorSSvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV22proceedButtonTextColorSSvg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV22proceedButtonTextColorSSvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previewInstruction",
+            "printedName": "previewInstruction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV18previewInstructionSSvp",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV18previewInstructionSSvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV18previewInstructionSSvg",
+                "mangledName": "$s14ZoopScannerSdk0B6ConfigV18previewInstructionSSvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fileType:mode:quality:autoEnabled:primaryColor:isIdCard:isBackImageRequired:proceedButtonTextColor:previewInstruction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerConfig",
+                "printedName": "ZoopScannerSdk.ScannerConfig",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FileType",
+                "printedName": "ZoopScannerSdk.FileType",
+                "usr": "s:14ZoopScannerSdk8FileTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanMode",
+                "printedName": "ZoopScannerSdk.ScanMode",
+                "usr": "s:14ZoopScannerSdk8ScanModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ZoopScannerSdk0B6ConfigV8fileType4mode7quality11autoEnabled12primaryColor8isIdCard0M17BackImageRequired017proceedButtonTextL018previewInstructionAcA04FileF0O_AA8ScanModeOSiSbSSS2bS2Stcfc",
+            "mangledName": "$s14ZoopScannerSdk0B6ConfigV8fileType4mode7quality11autoEnabled12primaryColor8isIdCard0M17BackImageRequired017proceedButtonTextL018previewInstructionAcA04FileF0O_AA8ScanModeOSiSbSSS2bS2Stcfc",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ZoopScannerSdk0B6ConfigV",
+        "mangledName": "$s14ZoopScannerSdk0B6ConfigV",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScannerConfigBuilder",
+        "printedName": "ScannerConfigBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerConfigBuilder",
+                "printedName": "ZoopScannerSdk.ScannerConfigBuilder",
+                "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderCACycfc",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderCACycfc",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setFileType",
+            "printedName": "setFileType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FileType",
+                "printedName": "ZoopScannerSdk.FileType",
+                "usr": "s:14ZoopScannerSdk8FileTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC11setFileTypeyACXDAA0gH0OF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC11setFileTypeyACXDAA0gH0OF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMode",
+            "printedName": "setMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanMode",
+                "printedName": "ZoopScannerSdk.ScanMode",
+                "usr": "s:14ZoopScannerSdk8ScanModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC7setModeyACXDAA04ScanG0OF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC7setModeyACXDAA04ScanG0OF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setQuality",
+            "printedName": "setQuality(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC10setQualityyACXDSiF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC10setQualityyACXDSiF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAutoEnabled",
+            "printedName": "setAutoEnabled(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC14setAutoEnabledyACXDSbF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC14setAutoEnabledyACXDSbF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPrimaryColor",
+            "printedName": "setPrimaryColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC15setPrimaryColoryACXDSSF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC15setPrimaryColoryACXDSSF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIsIdCard",
+            "printedName": "setIsIdCard(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC11setIsIdCardyACXDSbF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC11setIsIdCardyACXDSbF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIsBackImageRequired",
+            "printedName": "setIsBackImageRequired(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC22setIsBackImageRequiredyACXDSbF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC22setIsBackImageRequiredyACXDSbF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setProceedButtonTextColor",
+            "printedName": "setProceedButtonTextColor(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC25setProceedButtonTextColoryACXDSSF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC25setProceedButtonTextColoryACXDSSF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPreviewInstruction",
+            "printedName": "setPreviewInstruction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC21setPreviewInstructionyACXDSSF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC21setPreviewInstructionyACXDSSF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerConfig",
+                "printedName": "ZoopScannerSdk.ScannerConfig",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC5buildAA0bD0VyF",
+            "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC5buildAA0bD0VyF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14ZoopScannerSdk0B13ConfigBuilderC",
+        "mangledName": "$s14ZoopScannerSdk0B13ConfigBuilderC",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScanResult",
+        "printedName": "ScanResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk10ScanResultV5imageSo7UIImageCvp",
+            "mangledName": "$s14ZoopScannerSdk10ScanResultV5imageSo7UIImageCvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk10ScanResultV5imageSo7UIImageCvg",
+                "mangledName": "$s14ZoopScannerSdk10ScanResultV5imageSo7UIImageCvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "corners",
+            "printedName": "corners",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreFoundation.CGPoint]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk10ScanResultV7cornersSaySo7CGPointVGvp",
+            "mangledName": "$s14ZoopScannerSdk10ScanResultV7cornersSaySo7CGPointVGvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreFoundation.CGPoint]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGPoint",
+                        "printedName": "CoreFoundation.CGPoint",
+                        "usr": "c:@S@CGPoint"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk10ScanResultV7cornersSaySo7CGPointVGvg",
+                "mangledName": "$s14ZoopScannerSdk10ScanResultV7cornersSaySo7CGPointVGvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confidence",
+            "printedName": "confidence",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk10ScanResultV10confidenceSfvp",
+            "mangledName": "$s14ZoopScannerSdk10ScanResultV10confidenceSfvp",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk10ScanResultV10confidenceSfvg",
+                "mangledName": "$s14ZoopScannerSdk10ScanResultV10confidenceSfvg",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toJson",
+            "printedName": "toJson()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk10ScanResultV6toJsonSSyF",
+            "mangledName": "$s14ZoopScannerSdk10ScanResultV6toJsonSSyF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ZoopScannerSdk10ScanResultV",
+        "mangledName": "$s14ZoopScannerSdk10ScanResultV",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseMLModelDownloader",
+        "printedName": "FirebaseMLModelDownloader",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseAnalytics",
+        "printedName": "FirebaseAnalytics",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLite",
+        "printedName": "TensorFlowLite",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseStorage",
+        "printedName": "FirebaseStorage",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZoopScannerSDK",
+        "printedName": "ZoopScannerSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZoopScannerSDK",
+                "printedName": "ZoopScannerSdk.ZoopScannerSDK",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZoopScannerSdk0aB3SDKC6sharedACvpZ",
+            "mangledName": "$s14ZoopScannerSdk0aB3SDKC6sharedACvpZ",
+            "moduleName": "ZoopScannerSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZoopScannerSDK",
+                    "printedName": "ZoopScannerSdk.ZoopScannerSDK",
+                    "usr": "s:14ZoopScannerSdk0aB3SDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC6sharedACvgZ",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC6sharedACvgZ",
+                "moduleName": "ZoopScannerSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ScannerError",
+            "printedName": "ScannerError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "licenseNotInitialized",
+                "printedName": "licenseNotInitialized",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type) -> ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerError",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                        "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerError",
+                            "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                            "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO21licenseNotInitializedyA2EmF",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO21licenseNotInitializedyA2EmF",
+                "moduleName": "ZoopScannerSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidLicense",
+                "printedName": "invalidLicense",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type) -> ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerError",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                        "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerError",
+                            "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                            "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO14invalidLicenseyA2EmF",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO14invalidLicenseyA2EmF",
+                "moduleName": "ZoopScannerSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "bundleNotFound",
+                "printedName": "bundleNotFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type) -> ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerError",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                        "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerError",
+                            "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                            "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO14bundleNotFoundyA2EmF",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO14bundleNotFoundyA2EmF",
+                "moduleName": "ZoopScannerSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "detectorInitializationFailed",
+                "printedName": "detectorInitializationFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type) -> ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerError",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                        "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerError",
+                            "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                            "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO28detectorInitializationFailedyA2EmF",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO28detectorInitializationFailedyA2EmF",
+                "moduleName": "ZoopScannerSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "modelDownloadFailed",
+                "printedName": "modelDownloadFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type) -> ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerError",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                        "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerError",
+                            "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                            "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO19modelDownloadFailedyA2EmF",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO19modelDownloadFailedyA2EmF",
+                "moduleName": "ZoopScannerSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "modelDecryptionFailed",
+                "printedName": "modelDecryptionFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type) -> ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerError",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                        "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerError",
+                            "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                            "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO21modelDecryptionFailedyA2EmF",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO21modelDecryptionFailedyA2EmF",
+                "moduleName": "ZoopScannerSdk"
+              },
+              {
+                "kind": "Var",
+                "name": "unknownError",
+                "printedName": "unknownError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type) -> ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerError",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                        "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerError",
+                            "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                            "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO07unknownE0yA2EmF",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO07unknownE0yA2EmF",
+                "moduleName": "ZoopScannerSdk"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScannerError",
+                    "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScannerError",
+                    "printedName": "ZoopScannerSdk.ZoopScannerSDK.ScannerError",
+                    "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "ZoopScannerSdk",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO9hashValueSivp",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO9hashValueSivp",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO9hashValueSivg",
+                    "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO9hashValueSivg",
+                    "moduleName": "ZoopScannerSdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "ZoopScannerSdk",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14ZoopScannerSdk0aB3SDKC0B5ErrorO",
+            "mangledName": "$s14ZoopScannerSdk0aB3SDKC0B5ErrorO",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initializeLicenseKey",
+            "printedName": "initializeLicenseKey(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0aB3SDKC20initializeLicenseKey_10completionySS_ySbctF",
+            "mangledName": "$s14ZoopScannerSdk0aB3SDKC20initializeLicenseKey_10completionySS_ySbctF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startScan",
+            "printedName": "startScan(from:config:licenseKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerConfig",
+                "printedName": "ZoopScannerSdk.ScannerConfig",
+                "usr": "s:14ZoopScannerSdk0B6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[ZoopScannerSdk.ScanResult], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[ZoopScannerSdk.ScanResult], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[ZoopScannerSdk.ScanResult]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScanResult",
+                            "printedName": "ZoopScannerSdk.ScanResult",
+                            "usr": "s:14ZoopScannerSdk10ScanResultV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0aB3SDKC9startScan4from6config10licenseKey10completionySo16UIViewControllerC_AA0B6ConfigVSSSgys6ResultOySayAA0fO0VGs5Error_pGctF",
+            "mangledName": "$s14ZoopScannerSdk0aB3SDKC9startScan4from6config10licenseKey10completionySo16UIViewControllerC_AA0B6ConfigVSSSgys6ResultOySayAA0fO0VGs5Error_pGctF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadEncryptedModel",
+            "printedName": "downloadEncryptedModel(modelName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.URL, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.URL, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0aB3SDKC22downloadEncryptedModel9modelName10completionySS_ys6ResultOy10Foundation3URLVs5Error_pGctF",
+            "mangledName": "$s14ZoopScannerSdk0aB3SDKC22downloadEncryptedModel9modelName10completionySS_ys6ResultOy10Foundation3URLVs5Error_pGctF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decryptModel",
+            "printedName": "decryptModel(encryptedModelURL:key:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0aB3SDKC12decryptModel09encryptedF3URL3key10completiony10Foundation0H0V_SSys6ResultOyAH4DataVs5Error_pGctF",
+            "mangledName": "$s14ZoopScannerSdk0aB3SDKC12decryptModel09encryptedF3URL3key10completiony10Foundation0H0V_SSys6ResultOyAH4DataVs5Error_pGctF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadAndUseModel",
+            "printedName": "downloadAndUseModel(modelName:key:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0aB3SDKC19downloadAndUseModel9modelName3key10completionySS_SSys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "mangledName": "$s14ZoopScannerSdk0aB3SDKC19downloadAndUseModel9modelName3key10completionySS_SSys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadAndUseModel",
+            "printedName": "downloadAndUseModel(modelName:key:iv:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Foundation.Data, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Foundation.Data, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ZoopScannerSdk0aB3SDKC19downloadAndUseModel9modelName3key2iv10completionySS_S2Sys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "mangledName": "$s14ZoopScannerSdk0aB3SDKC19downloadAndUseModel9modelName3key2iv10completionySS_S2Sys6ResultOy10Foundation4DataVs5Error_pGctF",
+            "moduleName": "ZoopScannerSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14ZoopScannerSdk0aB3SDKC",
+        "mangledName": "$s14ZoopScannerSdk0aB3SDKC",
+        "moduleName": "ZoopScannerSdk",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "ZoopScannerSdk"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Managers\/LicenseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 17,
+      "value": "\"zoop_secret_key\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/CapturedImageData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 812,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2407,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2498,
+      "length": 9,
+      "value": "\"#00FF00\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2546,
+      "length": 36,
+      "value": "\"Please ensure scans are not blurry\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfigBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 271,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfigBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 312,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfigBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfigBuilder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfigBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 9,
+      "value": "\"#00FF00\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScannerConfigBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 36,
+      "value": "\"Please ensure scans are not blurry\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Models\/ScanSession.swift",
+      "kind": "Array",
+      "offset": 360,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Networking\/ApiClient.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/constants.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 53,
+      "value": "\"https:\/\/us-central1-zoop-sdk.cloudfunctions.net\/api\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/constants.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 17,
+      "value": "\"\/verify-license\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/constants.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 14,
+      "value": "\"\/org-details\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/constants.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 28,
+      "value": "\"\/verify-and-update-license\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/constants.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 18,
+      "value": "\"\/log-transaction\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/constants.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 23,
+      "value": "\"\/complete-transaction\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/constants.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 15,
+      "value": "\"\/organization\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/encryptor.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 22,
+      "value": "\"AES\/CBC\/PKCS7Padding\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/TFLiteCornerDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/TFLiteCornerDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 430,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/TFLiteCornerDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 834,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/TFLiteCornerDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2088,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/TFLiteCornerDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 3092,
+      "length": 15,
+      "value": "\"zoop@security\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/TFLiteCornerDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3130,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 849,
+      "length": 3,
+      "value": "242"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 853,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 865,
+      "length": 3,
+      "value": "242"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 880,
+      "length": 3,
+      "value": "242"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 884,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 896,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 950,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 953,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 965,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 968,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 979,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 982,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 994,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1047,
+      "length": 3,
+      "value": "248"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1058,
+      "length": 3,
+      "value": "248"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1068,
+      "length": 3,
+      "value": "248"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1079,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1131,
+      "length": 3,
+      "value": "163"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1142,
+      "length": 3,
+      "value": "163"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1152,
+      "length": 3,
+      "value": "163"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Utilities\/UIColor+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 1163,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ViewModels\/PreviewViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 23,
+      "value": "\"com.zoop.preview.sync\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ViewModels\/PreviewViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 757,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ViewModels\/PreviewViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 970,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ViewModels\/PreviewViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1896,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ViewModels\/ScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 25,
+      "value": "\"com.zoop.detectionQueue\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ViewModels\/ScannerViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 745,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1265,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1325,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1585,
+      "length": 9,
+      "value": "\"#F0F0F0\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1653,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1919,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2093,
+      "length": 15,
+      "value": "\"Document Scan\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2147,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2242,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2454,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2586,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2843,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3098,
+      "length": 14,
+      "value": "\"chevron.left\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3368,
+      "length": 15,
+      "value": "\"chevron.right\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3654,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3949,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3978,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4037,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4231,
+      "length": 9,
+      "value": "\"Proceed\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4289,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4340,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4526,
+      "length": 8,
+      "value": "\"Retake\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4620,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4671,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4968,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5240,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5282,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5309,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5368,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "Array",
+      "offset": 5650,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5989,
+      "length": 26,
+      "value": "\"com.zoop.preview.overlay\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "Array",
+      "offset": 6138,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "Dictionary",
+      "offset": 6451,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6543,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6876,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52772,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55031,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55095,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55299,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55340,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55393,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55402,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55425,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55434,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55443,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55650,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/PreviewViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55680,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1648,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1778,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "Array",
+      "offset": 3467,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3574,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3890,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4035,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4216,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4682,
+      "length": 3,
+      "value": "2.5"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/Views\/ScannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7166,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ZoopScannerSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 555,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ZoopScannerSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 14134,
+      "length": 15,
+      "value": "\"zoop@security\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ZoopScannerSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 15548,
+      "length": 15,
+      "value": "\"zoop@security\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ZoopScannerSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 16547,
+      "length": 15,
+      "value": "\"zoop@security\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Downloads\/zoop-scanner-sdk-ios\/ZoopScannerSdk\/ZoopScannerSdk\/Sources\/ZoopScannerSdk\/ZoopScannerSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 16612,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Library\/Developer\/Xcode\/DerivedData\/ZoopScannerSdk-fxuuywsusvhqkwdpvwcuitvbtnae\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoopScannerSdk\/IntermediateBuildFilesPath\/ZoopScannerSdk.build\/Release-iphoneos\/ZoopScannerSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 15,
+      "value": "\"add_more_icon\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Library\/Developer\/Xcode\/DerivedData\/ZoopScannerSdk-fxuuywsusvhqkwdpvwcuitvbtnae\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoopScannerSdk\/IntermediateBuildFilesPath\/ZoopScannerSdk.build\/Release-iphoneos\/ZoopScannerSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 879,
+      "length": 11,
+      "value": "\"crop_icon\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Library\/Developer\/Xcode\/DerivedData\/ZoopScannerSdk-fxuuywsusvhqkwdpvwcuitvbtnae\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoopScannerSdk\/IntermediateBuildFilesPath\/ZoopScannerSdk.build\/Release-iphoneos\/ZoopScannerSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 13,
+      "value": "\"delete_icon\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Library\/Developer\/Xcode\/DerivedData\/ZoopScannerSdk-fxuuywsusvhqkwdpvwcuitvbtnae\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoopScannerSdk\/IntermediateBuildFilesPath\/ZoopScannerSdk.build\/Release-iphoneos\/ZoopScannerSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 11,
+      "value": "\"flash_off\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Library\/Developer\/Xcode\/DerivedData\/ZoopScannerSdk-fxuuywsusvhqkwdpvwcuitvbtnae\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoopScannerSdk\/IntermediateBuildFilesPath\/ZoopScannerSdk.build\/Release-iphoneos\/ZoopScannerSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1297,
+      "length": 10,
+      "value": "\"flash_on\""
+    },
+    {
+      "filePath": "\/Users\/aaryan\/Library\/Developer\/Xcode\/DerivedData\/ZoopScannerSdk-fxuuywsusvhqkwdpvwcuitvbtnae\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoopScannerSdk\/IntermediateBuildFilesPath\/ZoopScannerSdk.build\/Release-iphoneos\/ZoopScannerSdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 13,
+      "value": "\"rotate_icon\""
+    }
+  ]
+}
